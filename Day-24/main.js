@@ -19,3 +19,23 @@ try {
 catch (error) {
     console.log("Error: Can't reassign a 'const-delared variable.");
 }
+//Question # 72.
+// Block Scope with let and const.
+{
+    let blockLet = "visible inside the block";
+    const blockConst = "also only inside the block";
+    console.log(blockLet); // works..
+    console.log(blockConst); //also works..
+}
+try {
+    console.log(blockLet); //not working..error show
+}
+catch (error) {
+    console.log("'blockLet' is not accessible outside the block.");
+}
+try {
+    console.log(blockConst); // this is also fail
+}
+catch (error) {
+    console.log("'blockConst' is not accessible outside the block.");
+}

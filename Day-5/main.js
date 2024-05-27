@@ -10,3 +10,4 @@ let message = "I would like to";
 favTransportation.forEach(transport => {
     console.log(`${message} ${transport.type},${transport.brand}.`);
 });
+//Question #14

@@ -14,4 +14,4 @@ console.log(randomInteger);
 let number1 = -5;
 let number2 = 5;
 let absoluteDifference = Math.abs(number1 - number2);
-console.log(absoluteDifference);
+console.log(absoluteDifference); //out put 10

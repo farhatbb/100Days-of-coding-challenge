@@ -17,7 +17,7 @@ console.log(Car);
 //Iterating over object properties..
 function logObject(obj) {
     for (let property in obj) {
-        console.log(`${[property]}: ${[property]}`);
+        console.log(`${property}: ${obj[property]}`);
     }
 }
 logObject({ make: "Toyota", model: "Corolla", year: 2021, Color: "Grey" });
